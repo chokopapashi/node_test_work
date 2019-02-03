@@ -1,0 +1,30 @@
+{
+  "name": "node_test_work",
+  "version": "1.0.0",
+  "description": "Node.js test framework test",
+  "main": "index.js",
+  "scripts": {
+    "lint": "node_modules/.bin/eslint",
+    "lint-all": "node_modules/.bin/eslint *.js lib/*.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chokopapashi/node_test_work.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chokopapashi/node_test_work/issues"
+  },
+  "homepage": "https://github.com/chokopapashi/node_test_work#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.12.1",
+    "mocha": "^5.2.0",
+    "proxyquire": "^2.1.0"
+  }
+}
